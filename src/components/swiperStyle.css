@@ -1,0 +1,87 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-top: 9rem;
+  }
+
+  *{
+    font-family: Raleway;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-bottom: 8rem;
+  }
+  
+  .swiper-client-msg {
+    padding: 5rem 4rem;
+    background: #111827;
+    color : lightgrey;
+    border-radius: 1rem;
+    text-align: left;
+    position: relative;
+  }
+
+  .swiper-client-msg::before {
+    content: "";
+    position: absolute;
+    bottom: -4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2rem solid #1f2937;
+    border-color: transparent;
+    border-top-color: #1f2937;
+  }
+  
+  .swiper-client-msg p::before {
+    content: "\f10d";
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    font-size: 1.5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #ced3ff;
+  }
+  
+  .swiper-client-msg p::after {
+    content: "\f10e";
+    position: absolute;
+    bottom: 0;
+    right: 3rem;
+    font-size: 1.5rem;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #ced3ff;
+  }
+  
+  .swiper-client-data {
+    align-items: center;
+    margin-top: 3.2rem;
+    gap: 3.2rem;
+  }
+  
+  .img-container img {
+    margin-top:5rem;
+    width: 6rem;
+    border:2px solid #1f2937;
+    height: 6rem;
+    border-radius: 50%;
+    /* border: 0.5rem solid var(--helper-tint); */
+  }
