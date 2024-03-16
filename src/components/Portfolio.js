@@ -1,49 +1,52 @@
 import React from 'react'
-import covid from "./images/covid.jpg"
-import stock from "./images/stock.png"
+import covid from "./images/covid.png"
+import movie from "./images/movie.png"
 import wiki from "./images/wiki.jpg"
 import cse from "./images/cse.jpg"
 import drug from "./images/drug.png"
 import satellite from "./images/satellite.jpg"
+import chatbot from "./images/chatbot.png"
+import healthcare from "./images/healthcare.png"
+import notes from "./images/note-taking.png"
 
 const Portfolio = () => {
     const portfolios = [
         {
             id:1,
-            src: satellite,
-            link:"https://github.com/pointarcher02/Deep-learning-based-architecture-for-object-tracking-in-satellite-images",
-            title:"Deep Learning based architecture for single object tracking in satellite images."
+            src: chatbot,
+            link:"https://github.com/sahaniaditya/CollegeQueriesChatbot",
+            title:"Deep Learning based ChatBot to handle college related queries."
         },
         {
             id:2,
-            src: cse,
-            link:"https://github.com/pointarcher02/CSE-Society-Application",
-            title:"CSE Society Application."
+            src: healthcare,
+            link:"https://github.com/sahaniaditya/healthcare_anamoly_detection",
+            title:"Healthcare Anamoly Detection Using Autoencoders."
         },
         {
             id:3,
             src: covid,
-            link:"https://github.com/pointarcher02/Covid-19-Face-Mask-detection-with-Live-Video-Surveillance",
-            title:"Covid 19 Face Mask detection with Live-Video Surveillance."
+            link:"https://github.com/sahaniaditya/Covid-Detection-from-Chest-X-Ray",
+            title:"Covid 19 Detection Using Chest X-ray."
         },
         {
             id:4,
-            src: stock,
-            link:"https://github.com/pointarcher02/Stock-Price-Prediction-And-Forecasting-Using-Stacked-LSTM--Deep-Learning",
-            title:"Stock Price Prediction And Forecasting Using Stacked-LSTM."
+            src: movie,
+            link:"https://github.com/sahaniaditya/movie-recommendation-system",
+            title:"Movie Recommendation System."
         },
         {
             id:5,
             src: wiki,
-            link:"https://github.com/pointarcher02/Wikepedia-Toxic-Comment-classification",
+            link:"https://github.com/sahaniaditya/Wikipedia_Toxic_Comment_Classification",
             title:"Wikepedia Toxic Comment Classification."
         },
         
         {
             id:6,
-            src: drug,
-            link:"https://github.com/pointarcher02/Computational-Drug-Discovery-for-Alzheimer-s-disease",
-            title:" Computational Drug Discovery for Alzheimer's disease."
+            src: notes,
+            link:"https://github.com/sahaniaditya/QuillNotes",
+            title:"A Daily Notebook App based on MERN Stack."
         }
         
 

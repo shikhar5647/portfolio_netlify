@@ -51,37 +51,37 @@ const Por = () => {
         navigation={true}
         className="mySwiper"
       >
-        <SwiperSlide style={styles}>
+        {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg'>
                 <p className='w-full'>
-                 Internship Representative, Career Development Cell, IIT Jodhpur
+                 Assistant Head, ECELL, IIT Jodhpur
                 </p>
             </div>
             <div className='img-container'>
               <img src={cdc} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide style={styles}>
             <div className='swiper-client-msg'>
                 <p className='w-full'>
-                 Organizer, TEDx, Indian Institute of Technology, Jodhpur 2024
+                 Assistant Head, Prometeo, Indian Institute of Technology, Jodhpur 2024
                 </p>
             </div>
             <div className='img-container'>
-              <img src={tedx} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
+              <img src={iitj} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
         </SwiperSlide>
         <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
-                Overall Head, Entrepreneurship Cell, IIT Jodhpur
+                Assistant Head, Entrepreneurship Cell, IIT Jodhpur
                 </p>
             </div>
             <div className='img-container'>
               <img src={ecell} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
         </SwiperSlide>
-        <SwiperSlide style={styles}>
+        {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Head, INAE-SERB Youth Conclave 2022, IIT Jodhpur
@@ -90,8 +90,8 @@ const Por = () => {
             <div className='img-container'>
               <img src={youth} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
+        </SwiperSlide> */}
+        {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Overall Coordinator, Society of Alumni Affairs, IIT Jodhpur
@@ -100,8 +100,8 @@ const Por = () => {
             <div className='img-container'>
               <img src={saa} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
+        </SwiperSlide> */}
+        {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Core Member, Google Developer Students Club
@@ -110,8 +110,8 @@ const Por = () => {
             <div className='img-container'>
               <img src={google} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
+        </SwiperSlide> */}
+        {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Society Executive, Computer Science Society IIT Jodhpur
@@ -120,8 +120,8 @@ const Por = () => {
             <div className='img-container'>
               <img src={cse} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide>
-        <SwiperSlide style={styles}>
+        </SwiperSlide> */}
+        {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Student Guide, Student Wellbeing Committee, IIT Jodhpur
@@ -130,9 +130,9 @@ const Por = () => {
             <div className='img-container'>
               <img src={swc} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
        
-        <SwiperSlide style={styles}>
+        {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Awarded with Certificate of Excellence for serving as the Overall Head in the Board of Innovation and
@@ -142,15 +142,26 @@ const Por = () => {
             <div className='img-container'>
               <img src={bie} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
-                Branch Changer from Mechanical Engineering to Computer Science Engineering (Rank 10).
+                All India Rank 2 in Intermediate Examination, ISC Board.
                 </p>
             </div>
             <div className='img-container'>
               <img src={iitj} className="shadow-md  hover:scale-105 duration-200 shadow-gray-600" alt=""/>
+            </div>
+        </SwiperSlide>
+
+        <SwiperSlide style={styles}>
+            <div className='swiper-client-msg shadow-md shadow-gray-600'>
+                <p>
+                Assistant Head, E-Conclave IIT Jodhpur, 2024
+                </p>
+            </div>
+            <div className='img-container'>
+              <img src={bie} className="shadow-md  hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
         </SwiperSlide>
         

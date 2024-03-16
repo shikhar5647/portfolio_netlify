@@ -1,5 +1,5 @@
 import React from 'react'
-import iitbhu from "./images/iitbhu.png"
+import iitbhu from "./images/nexus.png"
 import satellite from "./images/satellite.jpg"
 const Research = () => {
   return (
@@ -14,15 +14,14 @@ const Research = () => {
             <p className='text-xl mt-15'>
               <div className='w-2/3 md:w-1/2 h-full mx-auto text-center'>
                <img className="w-100 h-100 rounded-full  m-auto" src={iitbhu} alt="iit_bhu"/><br/>
-               <b className='text-center text-gray-400 '>Indian Institute of Technology, Varanasi (IIT-BHU)</b><br/><br/>
-               <b className='text-center text-3xl'>Student Research Internship</b>
+               <b className='text-center text-gray-400 '>Nexus Info</b><br/><br/>
+               <b className='text-center text-3xl'>Machine Learning Internship</b>
                
               </div>
               <br/>
-            During my research internship at IIT (BHU), under the esteemed guidance of Dr. Rajeev Srivastava, I
-            focused on studying and implementing a Deep Learning-based architecture for Single Object
-            Tracking in Satellite Videos.The project revolved around implementation of Transformer tracking
-            and Correlation, while achieving impressive results.
+            During my research internship at Nexus Info, under the esteemed guidance of Nexus staff, I
+            focused on studying and implementing a Deep Learning-based architecture for developing a ChatBot to handle
+            college admission related queries. I utilized RNN, LSTM and Transformers to create the model for the ChatBot.
             </p>
             
         </div>
