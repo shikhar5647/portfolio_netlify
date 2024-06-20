@@ -1,14 +1,9 @@
 import React from 'react'
 import javascript from "./images/javascript.png"
-import node from "./images/node.png"
 import py from "./images/py.png"
-import react from "./images/react.png"
-import tailwind from "./images/tailwind.png"
 import adobe from "./images/adobe.png"
 import pytorch from "./images/pytorch.png"
 import tensorflow from "./images/tensorflow.png"
-import flutter from "./images/flutter.png"
-import django from "./images/django.png"
 import cpp from "./images/cpp.png"
 import html from "./images/html.png"
 import sql from "./images/sql.png"
@@ -54,44 +49,14 @@ const Experience = () => {
             title:'JavaScript',
             style:'shadow-yellow-500'
          },
+    
          {
             id:7,
-            src:react,
-            title:'ReactJS',
-            style:'shadow-blue-800'
-         },
-         
-         {
-            id:8,
-            src:node,
-            title:'NodeJS',
-            style:'shadow-green-500'
-         },
-         {
-            id:9,
             src:html,
             title:'HTML',
             style:'shadow-orange-300'
-         },
-         {
-            id:10,
-            src:flutter,
-            title:'Flutter',
-            style:'shadow-blue-300'
-         },
-         
-         {
-            id:11,
-            src:django,
-            title:'Django',
-            style:'shadow-green-300'
-         },
-         {
-            id:12,
-            src:tailwind,
-            title:'TailWind',
-            style:'shadow-blue-300'
          }
+         
     ]
   return (
     <div id="techstack" name="techstack" className='bg-gradient-to-b from-gray-800 to-black
