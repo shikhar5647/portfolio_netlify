@@ -1,5 +1,5 @@
 import React from 'react';
-import aditya from './images/me.png'; 
+import sd from './images/Pic_SD.jpg'; 
 import {Link} from "react-scroll";
 import Social from "./Social.js"
 
@@ -52,7 +52,7 @@ const Home = () => {
         </div>
 
         <div className='w-2/3 md:w-1/2 h-full'>
-            <img className="rounded-2xl mx-auto  md:mr-1 w-full md:w-2/3" src={aditya} alt="i am shashank"/>
+            <img className="rounded-2xl mx-auto  md:mr-1 w-full md:w-2/3" src={sd} alt="i am shashank"/>
             <Social style = {styles}/>
         </div>
 
