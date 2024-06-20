@@ -8,7 +8,7 @@ import "./swiperStyle.css"
 import google from "./images/google.png"
 import iitj from "./images/iitj.jpg"
 import cdc from "./images/cdc.png"
-import raid from "./images/raid.jpeg"
+import raid from "./images/raid.jpg"
 import { Navigation,Pagination,Autoplay} from 'swiper/modules';
 const Por = () => {
     const [slide,setSlide] = useState(3);
