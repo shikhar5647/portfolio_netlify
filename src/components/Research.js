@@ -1,6 +1,5 @@
 import React from 'react'
-import iitbhu from "./images/nexus.png"
-import satellite from "./images/satellite.jpg"
+import iiti from "./images/iiti.jpg"
 const Research = () => {
   return (
     <div id="research" name="research" className='w-full h-full bg-gradient-to-b from-gray-800 to-gray-800
@@ -19,9 +18,8 @@ const Research = () => {
                
               </div>
               <br/>
-            During my research internship at Nexus Info, under the esteemed guidance of Nexus staff, I
-            focused on studying and implementing a Deep Learning-based architecture for developing a ChatBot to handle
-            college admission related queries. I utilized RNN, LSTM and Transformers to create the model for the ChatBot.
+            During my research internship at the AI Labs of IIT Indore , I am working on automatic radiology report generation in various indian local languages.
+            The project majorly involves Computer vision and NLP . Have developed a cascade model using various neural machine translation method.
             </p>
             
         </div>
