@@ -45,7 +45,7 @@ const Por = () => {
         navigation={true}
         className="mySwiper"
       >
-        {/* <SwiperSlide style={styles}>
+        { <SwiperSlide style={styles}>
             <div className='swiper-client-msg'>
                 <p className='w-full'>
                  Internship Coordinator , CDC , IITJ 
@@ -54,7 +54,7 @@ const Por = () => {
             <div className='img-container'>
               <img src={cdc} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide> */}
+        </SwiperSlide> 
         <SwiperSlide style={styles}>
             <div className='swiper-client-msg'>
                 <p className='w-full'>
@@ -85,7 +85,7 @@ const Por = () => {
               <img src={saa} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
         </SwiperSlide> */}
-        {/* <SwiperSlide style={styles}>
+        { <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
                 Core Member, Google Developer Students Club
@@ -94,7 +94,7 @@ const Por = () => {
             <div className='img-container'>
               <img src={google} className="shadow-md hover:scale-105 duration-200 shadow-gray-600" alt=""/>
             </div>
-        </SwiperSlide> */}
+        </SwiperSlide> }
         {/* <SwiperSlide style={styles}>
             <div className='swiper-client-msg shadow-md shadow-gray-600'>
                 <p>
