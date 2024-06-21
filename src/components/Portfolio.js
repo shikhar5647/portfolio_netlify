@@ -1,10 +1,8 @@
 import React from 'react'
 import covid from "./images/covid.png"
 import wiki from "./images/wiki.jpg"
-import satellite from "./images/satellite.jpg"
 import chatbot from "./images/chatbot.png"
 import healthcare from "./images/healthcare.png"
-import notes from "./images/note-taking.png"
 
 const Portfolio = () => {
     const portfolios = [
