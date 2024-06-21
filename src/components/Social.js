@@ -35,7 +35,7 @@ const Social = () => {
 
             <li className='flex justify-between items-center w-1/4 h-14 px-0.5
             bg-inherit  hover:scale-105 duration-300'>
-                <a href="/aditya_resume_research.pdf" className='flex justify-between items-center w-full text-white' download={true} target="_blank"> 
+                <a href="/SD_Double_column.pdf" className='flex justify-between items-center w-full text-white' download={true} target="_blank"> 
                 
                  <BsFillPersonLinesFill size={50}/>
                 
