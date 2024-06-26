@@ -13,7 +13,7 @@ const Research = () => {
             <p className='text-xl mt-15'>
               <div className='w-2/3 md:w-1/2 h-full mx-auto text-center'>
                <img className="w-100 h-100 rounded-full  m-auto" src={iiti} alt="iit_bhu"/><br/>
-               <b className='text-center text-gray-400 '>Nexus Info</b><br/><br/>
+               {/* <b className='text-center text-gray-400 '>Nexus Info</b><br/><br/> */}
                <b className='text-center text-3xl'>Machine Learning Internship</b>
                
               </div>
