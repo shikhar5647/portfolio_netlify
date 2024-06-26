@@ -1,7 +1,6 @@
 import React from 'react'
 import javascript from "./images/javascript.png"
 import py from "./images/py.png"
-import adobe from "./images/adobe.png"
 import pytorch from "./images/pytorch.png"
 import tensorflow from "./images/tensorflow.png"
 import cpp from "./images/cpp.png"
